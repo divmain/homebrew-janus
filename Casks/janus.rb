@@ -1,12 +1,12 @@
 cask "janus" do
-  version "1.20.0"
-  sha256 "6ada0809b58ed9beb945eca6a13c64f634127353ab0611b38f57c3f3a7d100b6"
+  version "1.22.0"
+  sha256 "bb00f2b8b97e612fc42688e369529f453f3701c7bb4abcf6b0fd7024c38da521"
 
   desc "Plain-text issue tracking CLI with Markdown files and remote sync"
   homepage "https://github.com/divmain/janus"
   
   # URL will be dynamically updated by automation
-  url "https://github.com/divmain/homebrew-janus/releases/download/v1.20.0/janus-aarch64-apple-darwin.tar.gz"
+  url "https://github.com/divmain/homebrew-janus/releases/download/v1.22.0/janus-aarch64-apple-darwin.tar.gz"
     
   depends_on macos: ">= :monterey"
   depends_on arch: :arm64
